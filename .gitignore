@@ -1,0 +1,8 @@
+/include
+/Lib/
+/Scripts
+node_modules/
+/React_page/node_modules
+/Lib
+/Scripts/
+pyvenv.cfg

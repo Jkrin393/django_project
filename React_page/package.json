@@ -1,0 +1,19 @@
+{
+  "name": "react_page",
+  "version": "1.0.0",
+  "description": "React_Store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "styled-components": "^5.3.5"
+  }
+}

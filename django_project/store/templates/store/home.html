@@ -1,0 +1,7 @@
+{% extends "store/base.html" %}
+{% block content %}
+{% for game in games %}
+        <h1>{{game.title}}</h1>
+        <p>{{game.genre}}</p>
+    {% endfor %}
+{% endblock %}

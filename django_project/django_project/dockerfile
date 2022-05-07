@@ -1,0 +1,10 @@
+FROM django
+
+ADD . /django_project
+
+WORKDIR /django_project/django_project
+
+RUN pip install -r requirements.txt
+
+CMD ["python", "manage.py runserver localhost:8000"]
+
